@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6085cc1a-bf85-4118-87b3-1116f2dd5260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/testdata/testdata.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/base/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/base/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/drivers/ChromeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/drivers/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/drivers/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/drivers/FireFoxDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/drivers/MicrosoftEdgeDriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/testcases/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/testcases/TestMultipleBrowsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/soumya/qa/base/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/base/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/soumya/qa/testcases/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/soumya/qa/testcases/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,104 +41,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "soumya's__work",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Login.verifyLoginWithValidCredentialsWithFireFox">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TestingProjects\HybridTestNGFramework\src\main\config" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HybridTestNGFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.soumya.qa.testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.soumya.qa.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.soumya.qa.testcases.Login" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.verifyLoginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridTestNGFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soumya.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soumya.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.soumya.qa.testcases.Login" />
-      <option name="METHOD_NAME" value="verifyLoginWithValidCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.verifyLoginWithValidCredentialsWithChrome" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridTestNGFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soumya.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soumya.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.soumya.qa.testcases.Login" />
-      <option name="METHOD_NAME" value="verifyLoginWithValidCredentialsWithChrome" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.verifyLoginWithValidCredentialsWithEdge" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridTestNGFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soumya.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soumya.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.soumya.qa.testcases.Login" />
-      <option name="METHOD_NAME" value="verifyLoginWithValidCredentialsWithEdge" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.verifyLoginWithValidCredentialsWithFireFox" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HybridTestNGFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soumya.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soumya.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.soumya.qa.testcases.Login" />
-      <option name="METHOD_NAME" value="verifyLoginWithValidCredentialsWithFireFox" />
-      <option name="TEST_OBJECT" value="METHOD" />
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -154,11 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login.verifyLoginWithValidCredentialsWithFireFox" />
-        <item itemvalue="TestNG.Login.verifyLoginWithValidCredentialsWithEdge" />
-        <item itemvalue="TestNG.Login.verifyLoginWithValidCredentialsWithChrome" />
         <item itemvalue="TestNG.Login" />
-        <item itemvalue="TestNG.Login.verifyLoginWithValidCredentials" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +131,38 @@
       <workItem from="1703825764477" duration="1719000" />
       <workItem from="1703849686475" duration="2665000" />
       <workItem from="1703908603844" duration="129000" />
-      <workItem from="1704549859231" duration="3319000" />
+      <workItem from="1704549859231" duration="10253000" />
+      <workItem from="1704601341766" duration="4586000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/soumya/qa/testcases/Login.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/soumya/qa/testcases/TestMultipleBrowsers.java</url>
           <line>37</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
