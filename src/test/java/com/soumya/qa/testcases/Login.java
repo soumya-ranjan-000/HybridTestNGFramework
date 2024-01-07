@@ -4,7 +4,9 @@ import com.soumya.qa.base.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.util.Date;
 
@@ -14,15 +16,15 @@ public class Login extends Base {
 
     @BeforeMethod
     public void setUp(){
-        driver = initializeBrowserAndOpenApplicationURL("chrome");
+        driver = initializeBrowserAndOpenApplicationURL(prop.getProperty("browserName"));
     }
 
     @Test
     public void verifyLoginWithValidCredentials(){
         driver.findElement(By.xpath("//span[text()='My Account']")).click();
         driver.findElement(By.linkText("Login")).click();
-        driver.findElement(By.id("input-email")).sendKeys("rakiraja7751841655@gmail.com");
-        driver.findElement(By.id("input-password")).sendKeys("soumya@123");
+        driver.findElement(By.id("input-email")).sendKeys(prop.getProperty("validEmail"));
+        driver.findElement(By.id("input-password")).sendKeys(prop.getProperty("validPassword"));
         driver.findElement(By.xpath("//input[@value='Login']")).click();
 
         Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed());
