@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 public class MicrosoftEdgeDriverManager extends DriverManager {
     @Override
     protected WebDriver createDriver() {
-        System.out.println("Initializing Chrome Driver"); // Change to Loggers
+        System.out.println("Initializing edge Driver"); // Change to Loggers
         WebDriverManager.edgedriver().setup();
         return new EdgeDriver(getEdgeOptions());
     }
