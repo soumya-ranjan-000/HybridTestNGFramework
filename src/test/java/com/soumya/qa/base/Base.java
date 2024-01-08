@@ -3,6 +3,7 @@ package com.soumya.qa.base;
 import com.soumya.qa.drivers.DriverFactory;
 import com.soumya.qa.drivers.DriverManager;
 import org.openqa.selenium.WebDriver;
+import utils.Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
