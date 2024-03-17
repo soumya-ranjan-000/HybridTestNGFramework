@@ -19,6 +19,12 @@ public enum DriverFactory {
         public DriverManager getDriverManager() {
             return new MicrosoftEdgeDriverManager();
         }
+    },
+    CHROME_LAMBDATEST {
+        @Override
+        public DriverManager getDriverManager() {
+            return new ChromeLambdaTest();
+        }
     };
 
     public abstract DriverManager getDriverManager();
