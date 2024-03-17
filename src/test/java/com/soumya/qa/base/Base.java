@@ -52,6 +52,10 @@ public class Base {
                 manager = DriverFactory.valueOf("MICROSOFT_EDGE").getDriverManager();
                 driver = manager.getDriver();
                 break;
+            case "chrome_lambdatest":
+                manager = DriverFactory.valueOf("CHROME_LAMBDATEST").getDriverManager();
+                driver = manager.getDriver();
+                break;
             default:
                 System.out.println("Given browser not present.");
         }
